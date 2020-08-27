@@ -1,0 +1,128 @@
+@media all and (max-width: 1436px){
+    .container{
+        width: 1100px;
+    }
+    .ima {
+        background-position: right -155px top 190px;
+    }
+    .question {
+        width: auto;
+    }
+    .we_know {
+        width: auto;
+    }
+    .question p {
+        text-align: center;
+    }
+    .circle {
+        margin-left: unset;
+    }
+    .one {
+        margin-left: 100px;
+    }
+    .panel p {
+        margin-left: 87px;
+    }
+}
+@media all and (max-width: 1200px){
+    .container{
+        width: 1000px;
+    }
+    .ima {
+        background-position: right 0px top 220px;
+        background-size: 50%;
+    }
+    .question {
+        width: auto;
+    }
+    .question p {
+        text-align: unset;
+    }
+    .we_know p {
+        text-align: unset;
+        margin-left: 125px;
+    }
+    .circle {
+        margin-left: unset;
+    }
+    .one {
+        margin-left: 100px;
+    }
+    .panel p {
+        margin-left: 87px;
+    }
+}
+@media all and (max-width: 1000px){
+    .container{
+        width: 700px;
+    }
+    .question {
+        margin-left: unset;
+    }
+    .we_know {
+        margin-left: unset;
+    }
+    .ima {
+        background-position: right 0px top -19px;
+        background-size: 257px;
+        padding-top: 150px;
+    }
+    .question {
+        margin-top: unset;
+    }
+
+}
+@media all and (max-width: 685px){
+    .container{
+        width: 550px;
+    }
+    .question p {
+        font-size: 30px;
+        text-align: center;
+    }
+    .we_know p {
+        font-size: 20px;
+        text-align: left;
+    }
+    .ima p:first-child {
+        margin-top: 23px;
+    }
+    .ima {
+        background-position: right 150px top 55px;
+        background-size: 257px;
+        padding-top: 150px;
+    }
+    .panel p {
+        width: 355px;
+    }
+    .circle {
+        margin-top: 30px;
+    }
+    .one{
+        margin-top: 50px;
+        width: 221px;
+    }
+    .ima p:first-child {
+        margin-top: unset;
+    }
+
+}
+@media all and (max-width: 560px){
+    .container{
+        width: 450px;
+    }
+    .ima {
+        background-position: right 80px top 35px;
+    }
+}
+@media all and (max-width: 450px){
+    .container{
+        width: 300px;
+    }
+    .ima {
+        background-position: right 15px top 35px;
+    }
+    .we_know p {
+        margin-left: unset;
+    }
+}

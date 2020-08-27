@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+body {
+  overflow-x: hidden;
+  background: white;
+}
+span{
+  color: #E41579;
+}
+li{
+  list-style-type: none;
+  width: 920px;
+}
+.container {
+  width: 1920px;
+  margin: 0 auto;
+}
+.accordion {
+  background-color: transparent;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+.ima{
+  background: url(img/broc.png) no-repeat right center;
+  background-position: right 0px top 190px;
+} 
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+}
+.question{
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  width: 1171px;
+  height: 150px;
+  margin-left: 241px;
+  margin-top: 150px;
+
+}
+.question p{
+  color: #F6F6F6;
+  font-weight: 800;
+  font-size: 130px;
+  line-height: 153px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+.we_know{
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  width: 1170px;
+  height: 60px;
+  margin-left: 241px;
+}
+.we_know p{
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+.plus {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  margin-left: 8.25px;
+  margin-top: 16.25px;
+  transform: rotate(45deg);
+}
+.plus:hover{
+text-shadow: 1px 1px 2px black, 0 0 1em red;
+}
+.plus:after {
+  content: "\274c";
+  font-size: 20px;
+  color: #E41579;
+  margin-left: 5px;
+}
+.plus:before{
+  transform: rotate(90deg);
+}
+.circle{
+  width: 70px;
+  height: 70px;
+  border: 1px solid #E41579;
+  box-sizing: border-box;
+  border-radius: 50%;
+  margin-left: 241px;
+  margin-top: 47px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.one{
+  margin-left: 341px;
+  position: absolute;
+  margin-top: 70px;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  width: 569px;
+  height: 70px;
+}
+.ima p:first-child{
+  margin-top: 25px;
+}
+.active{
+  background: #E41579;
+  transform: rotate(90deg);
+}
+.panel p{
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19px;
+  width: 582px;
+  height: 130px;
+  margin-left: 322px;
+}
